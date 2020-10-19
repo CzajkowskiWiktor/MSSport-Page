@@ -1,0 +1,13 @@
+@media (min-width: 576px) {
+
+
+
+}
+
+@media (min-width: 640px) {
+    .aboutus {
+        &__img {
+            grid-row: 3/7;
+        }
+    }
+}
