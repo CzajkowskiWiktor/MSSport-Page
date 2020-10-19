@@ -31,20 +31,21 @@
         }
     }
 
-    // .aboutus {
-    //     &__box {
-    //         &-title {
-    //             font-size: 3rem;
-    //         }
-    //     }
-
-    //     &__img {
-    //         grid-row: 4/7;
-    //         width: 100%;
-    //         // transform: translateX(20%);
-    //         // background-size: contain;
-    //         // background-repeat: no-repeat;
-    //     }
-    // }
+    .aboutus {
+        &__box {
+            margin-top: 4em;
+            &-title {
+                font-size: 3rem;
+            }
+            &-text {
+                font-size: 1.9rem;
+                width: 80%;
+                transform: translateX(10%);
+            }
+        }
+        &__img {
+            grid-row: 4/7;
+        }
+    }
 
 }

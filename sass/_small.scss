@@ -1,6 +1,22 @@
-@media (min-width: 576px) {
+@media (min-width: 375px) {
+    .aboutus {
+        height: 100vh;
 
+        &__box-text {
+            font-size: 1.4rem;
+        }
+    }
+}
 
+@media (min-width: 540px) {
+
+    .aboutus {
+        &__img {
+            grid-row: 3/7;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
 
 }
 
