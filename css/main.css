@@ -1009,16 +1009,16 @@ body {
     width: 100%;
     -webkit-transform: translateX(0);
             transform: translateX(0);
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
   }
   .aboutus__img {
-    -ms-grid-column: 3;
-    -ms-grid-column-span: 2;
-    grid-column: 3/5;
-    -ms-grid-row: 6;
-    -ms-grid-row-span: 7;
-    grid-row: 6/13;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+    grid-column: 2/5;
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 6;
+    grid-row: 7/13;
   }
   .team__box {
     display: -ms-grid;
