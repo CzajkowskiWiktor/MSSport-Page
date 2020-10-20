@@ -72,4 +72,31 @@
         }
     }
 
+    .help {
+        height: 250px;
+
+        &-title {
+            font-size: 3rem;
+            margin-bottom: 0.5em;
+        }
+
+        &-text {
+            font-size: 2.3rem;
+        }
+    }
+
+    .goal {
+        &__box-text {
+            width: 60%;
+        }
+
+        &__subtitle {
+            font-size: 3rem;
+        }
+
+        &__text {
+            font-size: 2rem;
+        }
+    }
+
 }

@@ -127,6 +127,19 @@
         }
     }
 
+    .help {
+        height: 250px;
+    }
+
+    .goal {
+        &__subtitle {
+            font-size: 3.5rem;
+        }
+
+        &__text {
+            font-size: 2.3rem;
+        }
+    }
 }
 
 @media (min-width: 1025px) {
@@ -213,4 +226,9 @@
         }
     }
 
+    .goal {
+        &__box-text {
+            width: 40%;
+        }
+    }
 }
