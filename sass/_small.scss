@@ -1,4 +1,17 @@
 @media (min-width: 375px) {
+
+    .header {
+        &__box {
+            &-logo {
+                height: 50px;
+            }
+
+            &-text {
+                font-size: 1.8rem;
+            }
+        }
+    }
+
     .aboutus {
         height: 100vh;
 
@@ -9,6 +22,18 @@
 }
 
 @media (min-width: 540px) {
+
+    .header {
+        &__box {
+            &-logo {
+                height: 70px;
+            }
+
+            &-text {
+                font-size: 2rem;
+            }
+        }
+    }
 
     .aboutus {
         &__img {

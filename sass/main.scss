@@ -45,16 +45,17 @@ body {
         grid-row: 1/7;
         grid-column: 1/3;
         padding: 2em;
+        // animation: fadeInLeft 1s;
         z-index: 10;
 
         &-logo {
             margin-top: 1em;
-            height: 50px; //150
+            height: 40px; //150
             margin-bottom: 0.7em;
         }
 
         &-text {
-            font-size: 1.5rem; //2.5
+            font-size: 1.4rem; //2.5
             font-weight: bold;
             margin-bottom: 0.7em;
         }
@@ -208,12 +209,14 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     overflow: hidden;
+    border-bottom: 5px solid $white;
+
     &__box {
         margin-top: 2em;
         grid-column: 1/3;
         grid-row: 1/4;
-        // border: 2px solid $blue;
-        // border-radius: 10px;
+        animation: fadeInLeft 1s;
+        // visibility: hidden;
 
         &-title {
             text-transform: uppercase;
@@ -238,11 +241,10 @@ body {
         height: 100%;
         width: 100%;
         margin-top: 2em;
-        // background-image: url('../img/image\ 1.png');
         background-image: url('../img/image\ 2.png');
-        // transform: translateX(0px);
         background-size: cover;
         background-position: top;
+        animation: fadeInRight 1s;
     }
 }
 
