@@ -25,7 +25,7 @@
             <a class="nav__link nav__link-mobile" href="#aboutus">o nas</a>
             <a class="nav__link nav__link-mobile" href="#team">team</a>
             <a class="nav__link nav__link-mobile" href="#goal">cel</a>
-            <a class="nav__link nav__link-mobile" href="#social">spoleczność</a>
+            <a class="nav__link nav__link-mobile" href="#contact">kontakt</a>
         </nav>
 
         <nav class="nav nav-desktop">
@@ -34,7 +34,7 @@
                 <a href="#aboutus" class="nav__link">O nas</a>
                 <a href="#team" class="nav__link">team</a>
                 <a href="#goal" class="nav__link">cel</a>
-                <a href="#social" class="nav__link">spoleczność</a>
+                <a href="#contact" class="nav__link">kontakt</a>
             </div>
         </nav>
 
@@ -146,9 +146,63 @@
             </div>
         </section>
 
+        <section class="contact" id="contact">
+            <div class="wrapper">
+                <h2 class="contact__title">Kontakt</h2>
+                <form class="contact__form">
+                    <div class="contact__form-box">
+                        <label for="name" class="contact__form-box-label">Podaj imię:</label>
+                        <input type="text" id="name" class="contact__form-box-input">
+                    </div>
+                    <div class="contact__form-box">
+                        <label for="mail" class="contact__form-box-label">Podaj email:</label>
+                        <input type="mail" id="mail" class="contact__form-box-input">
+                    </div>
+                    <div class="contact__form-box">
+                        <label for="msg" class="contact__form-box-label">Wiadomość:</label>
+                        <textarea id="msg" cols="30" rows="10" class="contact__form-box-textarea"></textarea>
+                    </div>
+                    <button type="submit" class="contact__form-btn">Wyślij</button>
+                </form>
+            </div>
+        </section>
+
     </main>
 
     <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__boxes">
+                <div class="footer__box">
+                    <h3 class="footer__box-title"> <i class="fas fa-dumbbell"></i> MS Sport.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsum ut sapiente culpa impedit
+                        porro vel nihil, consequuntur consequatur voluptates.</p>
+                    <div class="footer__box-social">
+                        <a href="#" class="footer__box-link"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#" class="footer__box-link"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" class="footer__box-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__box footer__box-desktop">
+                    <h3 class="footer__box-title">Treningi</h3>
+                    <ul class="footer__box-list">
+                        <li class="footer__box-list-item"><a href="#">Siłowe</a></li>
+                        <li class="footer__box-list-item"><a href="#">Crossfit</a></li>
+                        <li class="footer__box-list-item"><a href="#">Ogólno-sprawnościowe</a></li>
+                        <li class="footer__box-list-item"><a href="#">Pozostałe</a></li>
+                    </ul>
+                </div>
+                <div class="footer__box footer__box-desktop">
+                    <h3 class="footer__box-title">O Firmie</h3>
+                    <ul class="footer__box-list">
+                        <li class="footer__box-list-item"><a href="#aboutus">O nas</a></li>
+                        <li class="footer__box-list-item"><a href="#team">Team</a></li>
+                        <li class="footer__box-list-item"><a href="#goal">Cel</a></li>
+                        <li class="footer__box-list-item"><a href="#contact">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <p class="footer__bottom-text"> &copy; <span class="footer__year"></span> MS Sport by Wiktor Czajkowski </p>
     </footer>
 
