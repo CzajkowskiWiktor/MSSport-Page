@@ -18,6 +18,16 @@
         }
     }
 
+    .team {
+        &__box-name {
+            margin-bottom: 0.5em;
+        }
+
+        &__card {
+            margin: 0 5em;
+        }
+    }
+
 }
 
 @media (min-width: 640px) {
