@@ -279,8 +279,6 @@ body {
   -ms-grid-row: 1;
   -ms-grid-row-span: 3;
   grid-row: 1/4;
-  -webkit-animation: fadeInLeft 1s;
-          animation: fadeInLeft 1s;
 }
 
 .aboutus__box-title {
@@ -311,8 +309,6 @@ body {
   background-image: url("../img/image 2.png");
   background-size: cover;
   background-position: top;
-  -webkit-animation: fadeInRight 1s;
-          animation: fadeInRight 1s;
 }
 
 .team {
