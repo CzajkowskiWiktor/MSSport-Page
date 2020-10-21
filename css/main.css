@@ -49,6 +49,10 @@ body {
   max-width: 1400px;
 }
 
+.visibility {
+  visibility: hidden;
+}
+
 .header {
   position: relative;
   height: 100vh;
@@ -268,7 +272,6 @@ body {
   -ms-grid-rows: (1fr)[6];
       grid-template-rows: repeat(6, 1fr);
   overflow: hidden;
-  border-bottom: 5px solid #ffffff;
 }
 
 .aboutus__box {

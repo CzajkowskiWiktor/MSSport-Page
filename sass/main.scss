@@ -29,6 +29,10 @@ body {
     max-width: 1400px;
 }
 
+.visibility {
+    visibility: hidden;
+}
+
 //header
 .header {
     position: relative;
@@ -209,7 +213,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     overflow: hidden;
-    border-bottom: 5px solid $white;
+    // border-bottom: 5px solid $white;
 
     &__box {
         margin-top: 2em;
